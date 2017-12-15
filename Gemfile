@@ -25,13 +25,9 @@ gem 'coffee-rails', '~> 4.2'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-# Use Redis adapter to run Action Cable in production
-# gem 'redis', '~> 3.0'
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+ # install bootstrap
+gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem 'jquery-rails', '~> 4.3', '>= 4.3.1'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -45,7 +41,6 @@ group :development, :test do
   gem 'rails-controller-testing', '~> 1.0', '>= 1.0.2'
     # Database Cleaner is a set of strategies for cleaning your database in Ruby.
   gem 'database_cleaner', '~> 1.6', '>= 1.6.2'
-
 end
 
 group :development do
